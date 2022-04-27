@@ -9,18 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pertemuan1">
-        <activity android:name=".Tugas.TugasHandler">
+        <activity android:name=".pertemuankedua.MainCoroutines">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Tugas.TugasThread">
+        <activity
+            android:name=".pertemuankedua.LatihanAsync"
+            android:label="Latihan Hitung IMT">
 
         </activity>
+        <activity android:name=".pertemuankedua.MainAsync"></activity>
+        <activity android:name=".Tugas.TugasHandler" />
+        <activity android:name=".Tugas.TugasThread" />
         <activity android:name=".latihan.LatihanThread" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
